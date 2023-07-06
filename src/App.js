@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import profilePic from'./merida.png'
+import { FaGithub, FaInstagram, FaTelegram, FaTwitter, FaYoutube } from 'react-icons/fa'
 
 function App() {
   return (
