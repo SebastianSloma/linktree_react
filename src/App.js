@@ -39,7 +39,7 @@ function App() {
 	];
 	return (
 		<div className='App'>
-			<header className='App-header'>
+			<header className='App-header container'>
 				<img
 					src={profilePic}
 					className='profile-pic w-20 h-20 mb-4 rounded-full'
@@ -51,9 +51,9 @@ function App() {
 							key={index}
 							className='cursor-pointer m-2 py-3 px-10 border-black border-2 text-sm md:text-md text-slate-900'
 						>
-							<a href={link.url}>
+							<a href={link.url} className='flex items-center' title={link.title} target='_blank' rel="noreferrer">
 								{link.icon}
-								<p>{link.title}</p>
+								<p className='ml-3'>{link.title}</p>
 							</a>
 						</li>
 					))}
