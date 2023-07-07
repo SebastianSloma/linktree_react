@@ -1,4 +1,5 @@
 import './App.css';
+
 import profilePic from './merida.png';
 import {
 	FaGithub,
@@ -39,7 +40,7 @@ function App() {
 	];
 	return (
 		<div className='App'>
-			<header className='App-header container'>
+			<header className='App-header container mx-auto'>
 				<img
 					src={profilePic}
 					className='profile-pic w-20 h-20 mb-4 rounded-full'
